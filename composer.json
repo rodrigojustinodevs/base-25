@@ -9,15 +9,16 @@
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^11.0",
         "laravel/sanctum": "^4.0",
-        "laravel/tinker": "^2.8",
-        "owen-it/laravel-auditing": "^13.7"
+        "laravel/tinker": "^2.8"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
         "larastan/larastan": "^3.0",
         "laravel/pint": "^1.20",
         "laravel/sail": "^1.18",
-        "phpunit/phpunit": "^10.1",
+        "nunomaduro/phpinsights": "*",
+        "owen-it/laravel-auditing": "^13.7",
+        "pestphp/pest": "^3.7",
         "rector/rector": "^2.0",
         "spatie/laravel-ignition": "^2.0"
     },
@@ -62,6 +63,6 @@
             "php-http/discovery": true
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
