@@ -20,5 +20,4 @@ test('cast', function (): void {
         'password'          => 'hashed',
         'is_admin'          => 'boolean',
     ]);
-
 });
